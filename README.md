@@ -1,7 +1,3 @@
-Here's a sample README for your Messenger app project:
-
----
-
 # Messenger App
 
 A simple Messenger app built with **React**, **Redux**, and **Material UI**. It allows users to select a friend, send messages, and display chat history. 
