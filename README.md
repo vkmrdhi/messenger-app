@@ -1,47 +1,69 @@
-# Getting Started with Create React App and Redux
+Here's a sample README for your Messenger app project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+---
 
-## Available Scripts
+# Messenger App
 
-In the project directory, you can run:
+A simple Messenger app built with **React**, **Redux**, and **Material UI**. It allows users to select a friend, send messages, and display chat history. 
+The app also supports message persistence.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Friend List**: Displays a list of friends, allowing the user to select a friend to start chatting.
+- **Chat Window**: Displays the chat history with the selected friend and allows the user to send new messages.
+- **Message Input**: Allows users to type and send messages. Pressing **Enter** sends the message, while **Shift + Enter** adds a new line.
+- **Message Timestamp**: Each message has a timestamp indicating when it was sent.
+- **Redux**: Manages state for chat history, selected friend, and messages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React**: Frontend library for building user interfaces.
+- **Redux Toolkit**: State management for handling the application's data flow.
+- **Material UI**: A UI component library for React.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **React Redux**: To connect React components to the Redux store.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or above)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/yourusername/messenger-app.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd messenger-app/frontend
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. Run the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# messenger-app
+   This will start the app on `http://localhost:3000`.
+
+## Usage
+
+- **Friend List**: Click on a friend’s name to start a conversation.
+- **Chat Window**: Send messages by typing in the input box and pressing **Enter** or click **Send** button.
+- **Message Input**: Press **Shift + Enter** to insert a new line.
+
+## Contributing
+
+Feel free to fork this project and create pull requests. Any contributions are welcome!
