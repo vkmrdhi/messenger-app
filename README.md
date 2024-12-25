@@ -22,9 +22,10 @@ The app also supports message persistence.
 ## Getting Started
 
 ### Prerequisites
-
-- Node.js (v14 or above)
+- Node.js (v23)
+- React (v18)
 - npm or yarn
+
 
 ### Installation
 
